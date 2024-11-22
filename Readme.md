@@ -14,5 +14,5 @@ IndianSpicesRecipesBackend is the server-side API for the Indian Spices Recipes 
    # API Testing: Postman
    # Documentation: Swagger
 # API Documentation In postman...
-https://documenter.getpostman.com/view/25187096/2sAYBSktUe
+#   https://documenter.getpostman.com/view/25187096/2sAYBSktUe
 
