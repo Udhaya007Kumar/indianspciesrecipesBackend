@@ -7,9 +7,9 @@ IndianSpicesRecipesBackend is the server-side API for the Indian Spices Recipes 
   # API Documentation: Swagger/OpenAPI integration.
 
 # Tech Stack 🛠️
-   # Language: Node.js
-   # Framework: Express.js
-   # Database: MongoDB (Mongoose)
-   # Authentication: JWT
-   # API Testing: Postman
-   # Documentation: Swagger
+    Language: Node.js
+    Framework: Express.js
+    Database: MongoDB (Mongoose)
+    Authentication: JWT
+    API Testing: Postman
+    Documentation: Swagger
