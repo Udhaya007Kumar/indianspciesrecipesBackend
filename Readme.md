@@ -13,3 +13,6 @@ IndianSpicesRecipesBackend is the server-side API for the Indian Spices Recipes 
    # Authentication: JWT
    # API Testing: Postman
    # Documentation: Swagger
+# API Documentation In postman...
+https://documenter.getpostman.com/view/25187096/2sAYBSktUe
+
