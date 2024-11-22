@@ -1,4 +1,5 @@
 import User from "../Models/userModel.js";
+import Recipe from "../Models/recipeModel.js";
 import bcrypt from "bcryptjs";
 import clodninary from "cloudinary";
 
@@ -111,7 +112,7 @@ export const updatecoverimage = async (req, res) => {
 
 
 
-      export const updateProfileimage = async (req, res) => {
+ export const updateProfileimage = async (req, res) => {
         try {
     
             const userId = req.user._id; // Assuming `req.user` is populated by auth middleware
@@ -143,7 +144,26 @@ export const updatecoverimage = async (req, res) => {
           };
     
 
+  
+          
+
+          export const SingleuserAllRcipelist = async (req, res) => {
+            try {
     
+                const userId = req.params.id; // Assuming `req.user` is populated by auth middleware
+                console.log(userId);
+
+                const user  = await Recipe.find({user:userId});
+                res.status(200).json({message:"User found successfully",user});
+                
+             
+            } catch (error) {
+              console.error("Error updating cover image:", error.message);
+              res.status(500).json({ message: "Internal Server Error" });
+            }
+          }
+
+
 
   
     
